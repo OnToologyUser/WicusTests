@@ -12,12 +12,6 @@
 terms:license
       a       owl:AnnotationProperty .
 
-wicus-hwspecs:unit
-      a       owl:FunctionalProperty , owl:DatatypeProperty ;
-      rdfs:comment "whw:unit defines the unit of measurement of a whw:Feature"^^rdfs:Literal ;
-      rdfs:domain wicus-hwspecs:Feature ;
-      rdfs:range rdfs:Literal .
-
 vann:preferredNamespaceUri
       a       owl:AnnotationProperty .
 
@@ -90,6 +84,12 @@ wicus-hwspecs:Memory
 wicus-hwspecs:value
       a       owl:FunctionalProperty , owl:DatatypeProperty ;
       rdfs:comment "whw:unit defines the value of a whw:Feature"^^rdfs:Literal ;
+      rdfs:domain wicus-hwspecs:Feature ;
+      rdfs:range rdfs:Literal .
+
+wicus-hwspecs:unitof
+      a       owl:FunctionalProperty , owl:DatatypeProperty ;
+      rdfs:comment "whw:unit defines the unit of measurement of a whw:Feature"^^rdfs:Literal ;
       rdfs:domain wicus-hwspecs:Feature ;
       rdfs:range rdfs:Literal .
 

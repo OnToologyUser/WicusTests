@@ -1,8 +1,3 @@
-<http://purl.org/net/wicus-hwspecs#unit> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<http://purl.org/net/wicus-hwspecs#unit> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/net/wicus-hwspecs#Feature> .
-<http://purl.org/net/wicus-hwspecs#unit> <http://www.w3.org/2000/01/rdf-schema#comment> "whw:unit defines the unit of measurement of a whw:Feature"^^<http://www.w3.org/2000/01/rdf-schema#Literal> .
-<http://purl.org/net/wicus-hwspecs#unit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
-<http://purl.org/net/wicus-hwspecs#unit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <http://purl.org/dc/terms/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 <http://purl.org/net/wicus-hwspecs#HardwareSpec> <http://www.w3.org/2000/01/rdf-schema#comment> "A whw:HardwareSpec represents the set of hardware capabilities of a computational resource."^^<http://www.w3.org/2000/01/rdf-schema#Literal> .
 <http://purl.org/net/wicus-hwspecs#HardwareSpec> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -38,6 +33,11 @@
 <http://purl.org/net/wicus-hwspecs#hasHardwareComponent> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/net/wicus-hwspecs#HardwareComponent> .
 <http://purl.org/net/wicus-hwspecs#hasHardwareComponent> <http://www.w3.org/2000/01/rdf-schema#comment> "whw:hasHardwareComponent links a whw:HardwareSpec to the set of whw:HardwareComponent that compose it."^^<http://www.w3.org/2000/01/rdf-schema#Literal> .
 <http://purl.org/net/wicus-hwspecs#hasHardwareComponent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/net/wicus-hwspecs#unitof> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://purl.org/net/wicus-hwspecs#unitof> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/net/wicus-hwspecs#Feature> .
+<http://purl.org/net/wicus-hwspecs#unitof> <http://www.w3.org/2000/01/rdf-schema#comment> "whw:unit defines the unit of measurement of a whw:Feature"^^<http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://purl.org/net/wicus-hwspecs#unitof> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://purl.org/net/wicus-hwspecs#unitof> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <http://purl.org/dc/terms/license> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 <http://purl.org/net/wicus-hwspecs#Network> <http://www.w3.org/2000/01/rdf-schema#comment> "A whw:Network is a specific type of whw:HardwareComponent representing the Network type of a computational resource."^^<http://www.w3.org/2000/01/rdf-schema#Literal> .
 <http://purl.org/net/wicus-hwspecs#Network> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/net/wicus-hwspecs#HardwareComponent> .
